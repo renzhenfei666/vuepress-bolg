@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>能解决80%场景的Git必会知识点 | 任振飞的博客</title>
+    <meta name="description" content="Just Do it">
+    
+    
+    <link rel="preload" href="/vuepress-bolg/assets/css/0.styles.8fb03ca1.css" as="style"><link rel="preload" href="/vuepress-bolg/assets/js/app.ea6c41f1.js" as="script"><link rel="preload" href="/vuepress-bolg/assets/js/12.9049cd61.js" as="script"><link rel="prefetch" href="/vuepress-bolg/assets/js/10.5938ca84.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/11.eebccd28.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/13.92bff893.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/14.36faef53.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/15.028284c5.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/16.4ac1473a.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/17.654aef9d.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/18.7aa81695.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/19.936cc10b.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/2.2a0d8cfe.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/20.5bbc223e.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/21.c7b2fdc7.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/22.ec4d39b2.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/3.e60e7ae5.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/4.6e7778de.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/5.eff4ac38.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/6.67474d49.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/7.f048c0a0.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/8.9a8a1911.js"><link rel="prefetch" href="/vuepress-bolg/assets/js/9.3363a5e6.js">
+    <link rel="stylesheet" href="/vuepress-bolg/assets/css/0.styles.8fb03ca1.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuepress-bolg/" class="home-link router-link-active"><!----> <span class="site-name">任振飞的博客</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuepress-bolg/" class="nav-link">首页</a></div><div class="nav-item"><a href="/vuepress-bolg/frontEnd/jsCommon/array.html" class="nav-link">js常用</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/html/html5_webWorker.html" class="nav-link">html</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/css/css_commonUsed.html" class="nav-link">css</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/javascript/closure.html" class="nav-link">javascript</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/vue/vue_unkown.html" class="nav-link">vue</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/webpack/webpack_learn.html" class="nav-link">webpack</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/npm/npm.html" class="nav-link">npm</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/git/git.html" class="nav-link router-link-exact-active router-link-active">git</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/node/node_question.html" class="nav-link">node</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/express/express_middleWare.html" class="nav-link">express</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/koa/koa_learn.html" class="nav-link">koa</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/mongodb/mongodb_commonUsed.html" class="nav-link">mongodb</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/nginx/nginx_learn.html" class="nav-link">nginx</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/jsp/jsp_commonUsed.html" class="nav-link">jsp</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/renzhenfei666/vuepress-bolg" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vuepress-bolg/" class="nav-link">首页</a></div><div class="nav-item"><a href="/vuepress-bolg/frontEnd/jsCommon/array.html" class="nav-link">js常用</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/html/html5_webWorker.html" class="nav-link">html</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/css/css_commonUsed.html" class="nav-link">css</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/javascript/closure.html" class="nav-link">javascript</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/vue/vue_unkown.html" class="nav-link">vue</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/webpack/webpack_learn.html" class="nav-link">webpack</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/npm/npm.html" class="nav-link">npm</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/frontEnd/git/git.html" class="nav-link router-link-exact-active router-link-active">git</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/node/node_question.html" class="nav-link">node</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/express/express_middleWare.html" class="nav-link">express</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/koa/koa_learn.html" class="nav-link">koa</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/mongodb/mongodb_commonUsed.html" class="nav-link">mongodb</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/nginx/nginx_learn.html" class="nav-link">nginx</a></li><li class="dropdown-item"><!----> <a href="/vuepress-bolg/backEnd/jsp/jsp_commonUsed.html" class="nav-link">jsp</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/renzhenfei666/vuepress-bolg" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/vuepress-bolg/frontEnd/git/git.html" class="active sidebar-link">能解决80%场景的Git必会知识点</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#初始化git项目（前提你装好git环境，然后在命令行或者类似vscode等编辑器的终端中运行如下指令。这个还不会的自行百度吧），两种方式，注意区别：" class="sidebar-link">初始化git项目（前提你装好git环境，然后在命令行或者类似vscode等编辑器的终端中运行如下指令。这个还不会的自行百度吧），两种方式，注意区别：</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#将文件提交到暂存区" class="sidebar-link">将文件提交到暂存区</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#将暂存区文件提交到本地仓库" class="sidebar-link">将暂存区文件提交到本地仓库</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#commit之后发现提交错了信息怎么办？" class="sidebar-link">commit之后发现提交错了信息怎么办？</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#查看所有commit提交记录" class="sidebar-link">查看所有commit提交记录</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#版本回退" class="sidebar-link">版本回退</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#将某次commit的改动，合并到当前分支" class="sidebar-link">将某次commit的改动，合并到当前分支</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#存储" class="sidebar-link">存储</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#推送相关" class="sidebar-link">推送相关</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#标签" class="sidebar-link">标签</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#分支" class="sidebar-link">分支</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#合并当前分支上的多个commit记录" class="sidebar-link">合并当前分支上的多个commit记录</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#去掉当前分支上的某些commit引用" class="sidebar-link">去掉当前分支上的某些commit引用</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#将某次commit的改动，合并到当前分支-2" class="sidebar-link">将某次commit的改动，合并到当前分支</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#对比区别" class="sidebar-link">对比区别</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#查看-修改用户配置信息" class="sidebar-link">查看/修改用户配置信息</a></li><li class="sidebar-sub-header"><a href="/vuepress-bolg/frontEnd/git/git.html#gitignore文件规则" class="sidebar-link">.gitignore文件规则</a></li></ul></li></ul> </div> <div class="page"> <div class="content"><h1 id="能解决80-场景的git必会知识点"><a href="#能解决80-场景的git必会知识点" aria-hidden="true" class="header-anchor">#</a> 能解决80%场景的Git必会知识点</h1> <p>GIt以其方便安全快捷的特点，在版本控制领域可谓是大放光彩，深受广大开发者的喜爱。优点就不多说了，后面省去一大堆字……GIt常用的知识点不多，但是所有其他细节内容也绝对不少，本文旨在介绍/记录常用的知识点，解决日常业务中绝大多数的问题。引用一句话，就是说：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>我们可以使用20%的知识，解决80%的问题
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>如果你问我这句话是谁说的，咳咳～我只能给你个谜一样的眼神！文章不会再提最最基本的内容，例如安装等等，如果还不会的就去学学怎么装QQ吧。哦，不会！要讲的是Git，装什么qq！还是学习装个微信吧～～步入正题，基本的几个命令：</p> <h2 id="初始化git项目（前提你装好git环境，然后在命令行或者类似vscode等编辑器的终端中运行如下指令。这个还不会的自行百度吧），两种方式，注意区别："><a href="#初始化git项目（前提你装好git环境，然后在命令行或者类似vscode等编辑器的终端中运行如下指令。这个还不会的自行百度吧），两种方式，注意区别：" aria-hidden="true" class="header-anchor">#</a> 初始化git项目（前提你装好git环境，然后在命令行或者类似vscode等编辑器的终端中运行如下指令。这个还不会的自行百度吧），两种方式，注意区别：</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 在当前目录新建一个Git代码库
+git init
+// 在当前目录新建一个目录，并在新建的目录中初始化Git代码库 
+git init 新建的文件夹名 // 例如 git init git-study
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="将文件提交到暂存区"><a href="#将文件提交到暂存区" aria-hidden="true" class="header-anchor">#</a> 将文件提交到暂存区</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 将单个、多个文件添加到暂存区
+git add [file1] [file2]
+// 将所有工作区所有改动，添加到暂存区，注意后面有个点
+git add .
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="将暂存区文件提交到本地仓库"><a href="#将暂存区文件提交到本地仓库" aria-hidden="true" class="header-anchor">#</a> 将暂存区文件提交到本地仓库</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 需要添加-m添加备注信息
+git commit -m &quot;备注的信息&quot;
+// 如果不添加-m参数，则会调起编辑器编辑commit的备注信息,默认是vim
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>上面这几个命令相信大家都很熟悉，就先不做过多介绍。唯一值得一提的是vim这块。vim可能对于很多小伙伴来说不知道怎么回事，后端的可能一些小伙伴用过或者非常熟悉。</p> <p><img src="https://user-gold-cdn.xitu.io/2019/3/10/16968520a6f0fee4?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p> <p>一些小伙伴在提交本地仓库的时候忘记加-m参数的时候，经常会遇到这个情况，然后使出九牛二虎之力也搞不好，也没法删也没法改，最后只能默默关掉终端～有木有～</p> <p>其实这个就是在commit的时候没有加-m参数，从而调起的默认的vim编辑器。小伙伴们不知道如何解决就是因为对vim没有了解。解决办法，很简单，这里<a href="https://juejin.im/post/5b0ad976f265da0dd374b824" target="_blank" rel="noopener noreferrer">附上另一篇专门针对这个问题的解决办法的小文章<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>。如果小伙伴对vim非常感兴趣的话，可以去系统的学习。</p> <p>这里，只希望对于vim的基本操作有所了解，后面还有一些高级操作，需要基于此。</p> <h2 id="commit之后发现提交错了信息怎么办？"><a href="#commit之后发现提交错了信息怎么办？" aria-hidden="true" class="header-anchor">#</a> commit之后发现提交错了信息怎么办？</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 当前的这一次提交出现了错误，可以通过下面这个命令进入vim进行修改
+git commit --amend
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>例如下图，我的commit信息中打错了一个字，我便可以通过此方式修改。</p> <p><img src="https://user-gold-cdn.xitu.io/2019/3/11/169685ef6417d5b4?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p> <p>然后按照vim的方式，保存退出即可。此时你再git log查看一下提交信息，就会是你想要的了。</p> <h2 id="查看所有commit提交记录"><a href="#查看所有commit提交记录" aria-hidden="true" class="header-anchor">#</a> 查看所有commit提交记录</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 只包含提交信息
+git log
+
+// 查看所有提交记录的详细细节
+// 包含了具体改动的代码
+git log -p   // -p是--patch的缩写
+
+// 查看简要统计// 简要包含了，哪个文件被改动了
+git log --stat
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>这个查看commit记录的命令，相对简单，就不多说什么了，可以自己运行一下试试具体的区别就知道了。而在工作中，我们更多的会配合一些可视化工具，来更好的查看分支情况/提交情况等等，诺诺～～看下图绍：</p> <p><img src="https://user-gold-cdn.xitu.io/2019/3/11/1696864c454eac99?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p> <h2 id="版本回退"><a href="#版本回退" aria-hidden="true" class="header-anchor">#</a> 版本回退</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 回退到上一次提交，一个^代表一次提交
+git reset --hard HEAD^
+// 回退上上次提交
+git reset --hard HEAD^^
+// 回退更多次的话，可以使用～符号,例如回退一百次
+git reset --hard HEAD~100
+// 回退到具体的某一次commit
+git reset --hard 某次commit的SHA-1值
+例如：git reset --hard ee368ca3aed3e34682859495616ced301bbece34
+
+// 本质移动HEAD和当前branch的指向，并把移动后产生的新的差异放进暂存区
+// 直接回退到某次commit，--hard是一个参数，表示指向移动后，重置工作区内容
+git reset --hard 0E123213
+git reset --hard dev
+// 参数--soft会把回退后产生的新差异直接放进暂存区，并保留当前工作目录
+git reset --soft 02e21321
+// 不加参数或者参数--mixed,会保留工作目录，并把暂存区的内容和回退后产生的新差异都放进工作目录，并清空暂存区
+git reset 02e2131231
+git reset --mixed 02e123123
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><p>我们能通过git commit提交记录，自然就能回退记录。git中版本回退的命令是<code>git reset</code>，默认不加参数，和加参数<code>git reset --mixed</code>是一样的。这种我们用的不多，更多的是加参数<code>--hard</code>，具体的命令都在上面，注释也写的比较详细。</p> <p>这里提一点概念，HEAD在git中其实是指向当前commit的引用，就像js中的引用类型一样，你也可以把它简单理解为指针等。而一个^符号代表一次commit，<code>HEAD^</code>就是当前最新的这次commit，<code>HEAD^^</code>是再往前一次commit，以此类推。<code>~n</code>，表示从当前最新的这个commit开始，往前第n个commit，例如：<code>HEAD～1</code>是当前这次commit，等价于<code>HEAD^</code>，<code>HEAD～2</code>是前一次commit，等价于<code>HEAD^^</code>。</p> <p>而一个分支branch，其实也只是一组commit记录。</p> <h2 id="将某次commit的改动，合并到当前分支"><a href="#将某次commit的改动，合并到当前分支" aria-hidden="true" class="header-anchor">#</a> 将某次commit的改动，合并到当前分支</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 首先拷贝需要合并到当前分支的那个commit值的SHA-1值
+// 然后在当前分支执行如下命令
+git cherry-pick 某次提交的sha-1值 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>这也是一个很有用的命令。例如你在dev分支上，突然你需要把beta上面的某次commit合并到当前分支上，那你就可以使用该命令。</p> <p>这里需要提一下SHA-1值，关于他更多的内容不去多说，只说一下他是从哪里得到的，就是git log你可以看到的一长串字符。或者在类似sourceTree的可视化工具中直接复制就可以了。不多介绍。</p> <h2 id="存储"><a href="#存储" aria-hidden="true" class="header-anchor">#</a> 存储</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 存储已跟踪文件的改动和暂存区的内容
+// 未被跟踪的文件不会被暂存
+// 所有的存储都会被存储在一个栈上，以期取出
+git stash
+或
+git stash save
+// 如果要存储未被跟踪的文件
+git stash -u
+
+// 查看所有暂存
+git stash list
+
+// 取出
+git stash apply // 取出后栈内还保存当前存储记录，下次可以再次取出当前存储
+git stash pop // 取出后，栈内便删除当前存储记录，可以理解为数组的pop方法
+
+// 移除存储记录
+git stash drop 存储记录的名字（即git stash list每条记录开头显示的名字）
+
+// 暂存除了暂存区以外的改动
+git stash save --keep-index
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h2 id="推送相关"><a href="#推送相关" aria-hidden="true" class="header-anchor">#</a> 推送相关</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 如果本地已有项目，可以连接远程库
+git remote add origin 远程库地址
+
+// 查看远程库
+git remote
+// 查看远程库详细信息（包含名称和地址）
+git remote -v
+
+// 推送到远程分支
+git push
+// 强制推送，会覆盖远程分支;要确保是私有分支
+git push -f 
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h2 id="标签"><a href="#标签" aria-hidden="true" class="header-anchor">#</a> 标签</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 查看已打标签
+git tag
+
+// 创建一个标签，一般会起v1.0.0、 v2.1.1等等
+git tag 标签名
+// 创建一个v1.0.0的tag同时，加上备注信息
+git tag v1.0.0 -m&quot;备注信息内容&quot;
+
+// 查看标签信息
+git show 标签名
+
+// 将本地某个tag上传到远程服务器
+git push origin v1.0.0
+// 将远程服务器没有的所有本地tag全部上传
+git push origin --tags
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="分支"><a href="#分支" aria-hidden="true" class="header-anchor">#</a> 分支</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 查看分支：
+git branch
+
+// 创建分支：
+git branch 
+
+// 切换分支：
+git checkout 
+// 本质是签出，将HEAD指向某个branch，然后签出这个branch对应的工作目录
+// 因此如下都是可行的
+git checkout HEAD^^
+git checkout master～2
+git checkout 0e2321312
+
+// 创建+切换分支：
+git checkout -b 
+// 克隆远程某个分支到本地的新分支
+git checkout -b dev origin/dev
+
+// 合并某分支到当前分支：
+git merge 
+
+// 删除本地分支：
+git branch -d 
+// 删除远程分支
+git push origin -d 要删除的分支名 // 误删分支
+git reflog // 查看git仓库引用的移动记录
+// 找到被删除之前的那次移动记录的SHA-1
+// 切换到那次的commit记录
+// 然后切出一个新分支就好
+git checkout 0123123123
+git checkout -b 新分支
+
+// 补：查看某个分支的引用移动记录
+git reflog 分支名
+
+// 查看所有分支，包括远程分支
+git branch -a
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><h2 id="合并当前分支上的多个commit记录"><a href="#合并当前分支上的多个commit记录" aria-hidden="true" class="header-anchor">#</a> 合并当前分支上的多个commit记录</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 列出要操作的commit
+git rebase -i HEAD~次数
+// 在调起的vim编辑器中，编辑每条记录前面的操作类型
+// 最上面的是最老的提交
+pick 5e187c7dbe8	提交内容1
+pick 6d577eb3440	提交内容2
+pick f9b9508a3ab	提交内容3
+pick 111ab9cc261	提交内容4
+// 先2-4的pick改成squash
+pick 5e187c7dbe8	提交内容1
+squash 6d577eb3440	提交内容2
+squash f9b9508a3ab	提交内容3
+squash 111ab9cc261	提交内容4
+//然后保存退出，会进入一个设置commit界面的入口
+# This is a combination of 4 commits.
+# The first commit’s message is:
+提交内容1
+
+# The 2nd commit’s message is:
+提交内容2
+
+# The 3rd commit’s message is:
+提交内容3
+
+# The 4th commit’s message is:
+提交内容4# Please enter the commit message for your changes. Lines starting
+# with ‘#’ will be ignored, and an empty message aborts the commit.
+
+//这时候需要删掉对应的commit信息，设置一个合并后的commit信息
+// 然后保存退出
+// 最后可以git push -f 强推远程分支
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br></div></div><h2 id="去掉当前分支上的某些commit引用"><a href="#去掉当前分支上的某些commit引用" aria-hidden="true" class="header-anchor">#</a> 去掉当前分支上的某些commit引用</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 列出当前分支上需要操作的几次commit
+git rebase -i HEAD~次数
+// 直接删除对应的commit
+// 在vim中删除
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="将某次commit的改动，合并到当前分支-2"><a href="#将某次commit的改动，合并到当前分支-2" aria-hidden="true" class="header-anchor">#</a> 将某次commit的改动，合并到当前分支</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 首先拷贝需要合并到当前分支的那个commit值的SHA-1值
+// 然后在当前分支执行如下命令
+git cherry-pick 某次提交的sha-1值
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="对比区别"><a href="#对比区别" aria-hidden="true" class="header-anchor">#</a> 对比区别</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 对比当前工作区与暂存区的内容，即如果你现在git add .的话暂存区会新增哪些内容
+git diff
+
+// 对比当前暂存区和本地仓库的区别，即如果你现在git commit的话，本地仓库会新增哪些内容
+// 完全等价于git diff --cached  不仅意思相同，作用也相同
+git diff --staged
+
+// 对比当前工作区与本地仓库的区别
+// 是上面两种区别的综合
+git diff HEAD
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="查看-修改用户配置信息"><a href="#查看-修改用户配置信息" aria-hidden="true" class="header-anchor">#</a> 查看/修改用户配置信息</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 查看
+git config user.name
+git config user.email
+
+// 修改
+git config --global user.name &quot;xxx&quot;
+git config --global user.email &quot;xxx&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="gitignore文件规则"><a href="#gitignore文件规则" aria-hidden="true" class="header-anchor">#</a> .gitignore文件规则</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>1) 空格不匹配任意文件，可作为分隔符，可用反斜杠转义
+2）以“＃”开头的行都会被 Git 忽略。即#开头的文件标识注释，可以使用反斜杠进行转义。
+3）可以使用标准的glob模式匹配。所谓的glob模式是指shell所使用的简化了的正则表达式。
+4）以斜杠&quot;/&quot;开头表示目录；&quot;/&quot;结束的模式只匹配文件夹以及在该文件夹路径下的内容，但是不匹配该文件；
+&quot;/&quot;开始的模式匹配项目跟目录；如果一个模式不包含斜杠，则它匹配相对于当前 .gitignore 文件路径的内容，
+如果该模式不在 .gitignore 文件中，则相对于项目根目录。
+5）以星号&quot;*&quot;通配多个字符，即匹配多个任意字符；
+使用两个星号&quot;**&quot; 表示匹配任意中间目录，比如`a/**/z`可以匹配 a/z, a/b/z 或 a/b/c/z等。
+6）以问号&quot;?&quot;通配单个字符，即匹配一个任意字符；
+7）以方括号&quot;[]&quot;包含单个字符的匹配列表，即匹配任何一个列在方括号中的字符。
+比如[abc]表示要么匹配一个a，要么匹配一个b，要么匹配一个c；
+如果在方括号中使用短划线分隔两个字符，表示所有在这两个字符范围内的都可以匹配。
+比如[0-9]表示匹配所有0到9的数字，[a-z]表示匹配任意的小写字母）。
+8）以叹号&quot;!&quot;表示不忽略(跟踪)匹配到的文件或目录，即要忽略指定模式以外的文件或目录，可以在模式前加上惊叹号（!）取反。
+需要特别注意的是：如果文件的父目录已经被前面的规则排除掉了，那么对这个文件用&quot;!&quot;规则是不起作用的。
+也就是说&quot;!&quot;开头的模式表示否定，该文件将会再次被包含，如果排除了该文件的父级目录，则使用&quot;!&quot;也不会再次被包含。
+可以使用反斜杠进行转义。
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>可以通过设置.gitignore文件的git匹配规则，告知git应该跟踪哪些文件和忽略哪些文件。采用的是标准的glob匹配规则，上面参考网上场景的glob匹配规则，其实就是shell中简化的正则。需要系统学习的小伙伴可以自行查阅glob相关文档。</p> <p>通过这些内容：暂存/提交/标签/分支/回退/变基，可以解决我们日常中绝大部分的版本管理的内容。特别是变基rebase，是非常常用的一个功能。灵活运用这些命令，相信一定能更好的帮助你开发。</p> <p>如果觉得有用，不妨简单收藏一下这些命令，忘了时候拿出来瞅一眼！怕啥，瞅一眼能咋滴！！</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/vuepress-bolg/assets/js/app.ea6c41f1.js" defer></script><script src="/vuepress-bolg/assets/js/12.9049cd61.js" defer></script>
+  </body>
+</html>
